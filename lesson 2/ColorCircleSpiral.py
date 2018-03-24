@@ -5,5 +5,5 @@ turtle.bgcolor("black")
 colors = ["red", "yellow", "blue", "green", "pink"]
 for x in range(200):
     t.pencolor(colors[x%5])  
-    t.forward(x)
+    t.circle(x)
     t.left(72)
